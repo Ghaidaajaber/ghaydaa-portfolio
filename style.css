@@ -136,7 +136,14 @@ nav {
    width: 100%;
     display: block;
     border-radius: 35px;
+    transition: transform 0.4s ease;
 }
+
+
+.hero-image img:hover {
+    transform: scale(1.03);
+}
+
 
 .hero-intro {
     color: #C88F9C;
@@ -318,6 +325,7 @@ header h1,
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .skills-content{
@@ -424,6 +432,7 @@ margin-bottom: 15px;
     min-height: auto;
     padding: 15px 7% 30px;
     background-color: #FAF8F5;
+    
 }
 
 .projects-info {
